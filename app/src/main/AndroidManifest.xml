@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="in.cetb.ekta.lyricsstudio" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".EnglishActivity"
+            android:label="@string/title_activity_english"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="in.cetb.ekta.lyricsstudio.MainActivity" />
+        </activity>
+        <activity
+            android:name=".EnglishSongActivity"
+            android:label="@string/title_activity_english_song"
+            android:parentActivityName=".EnglishActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="in.cetb.ekta.lyricsstudio.EnglishActivity" />
+        </activity>
+        <activity
+            android:name=".HindiActivity"
+            android:label="@string/title_activity_hindi"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="in.cetb.ekta.lyricsstudio.MainActivity" />
+        </activity>
+        <activity
+            android:name=".HindiSongsActivity"
+            android:label="@string/title_activity_hindi_songs"
+            android:parentActivityName=".HindiActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="in.cetb.ekta.lyricsstudio.HindiActivity" />
+        </activity>
+        <activity
+            android:name=".HindiSongActivity"
+            android:label="@string/title_activity_hindi_song"
+            android:parentActivityName=".HindiActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="in.cetb.ekta.lyricsstudio.HindiActivity" />
+        </activity>
+        <activity
+            android:name=".BengaliActivity"
+            android:label="@string/title_activity_bengali"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="in.cetb.ekta.lyricsstudio.MainActivity" />
+        </activity>
+        <activity
+            android:name=".BengaliSongActivity"
+            android:label="@string/title_activity_bengali_song"
+            android:parentActivityName=".BengaliActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="in.cetb.ekta.lyricsstudio.BengaliActivity" />
+        </activity>
+        <activity
+            android:name=".TeluguActivity"
+            android:label="@string/title_activity_telugu"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="in.cetb.ekta.lyricsstudio.MainActivity" />
+        </activity>
+        <activity
+            android:name=".TeluguSongActivity"
+            android:label="@string/title_activity_telugu_song"
+            android:parentActivityName=".TeluguActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="in.cetb.ekta.lyricsstudio.TeluguActivity" />
+        </activity>
+        <activity
+            android:name=".OdiaActivity"
+            android:label="@string/title_activity_odia"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="in.cetb.ekta.lyricsstudio.MainActivity" />
+        </activity>
+        <activity
+            android:name=".OdiaSongActivity"
+            android:label="@string/title_activity_odia_song"
+            android:parentActivityName=".OdiaActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="in.cetb.ekta.lyricsstudio.OdiaActivity" />
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Lyrics Studio</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_english">English Songs</string>
+    <string name="title_activity_english_song">English Song</string>
+    <string name="title_activity_hindi">Hindi Songs</string>
+    <string name="title_activity_hindi_songs">Hindi Song</string>
+    <string name="title_activity_hindi_song">Hindi Song</string>
+    <string name="title_activity_bengali">Bengali Songs</string>
+    <string name="title_activity_bengali_song">Bengali Song</string>
+    <string name="title_activity_telugu">Telugu Songs</string>
+    <string name="title_activity_telugu_song">Telugu Song</string>
+    <string name="title_activity_odia">Odia Songs</string>
+    <string name="title_activity_odia_song">Odia Song</string>
+</resources>
